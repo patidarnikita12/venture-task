@@ -10,9 +10,9 @@ function Home(){
          <TopNav/>
          <TopNavSec/>
         </div>
-        <div className="flex flex-row">
+        <div className="flex flex-row ">
           <SideBar className="border-2 border-r border-gray"/>
-          <AllTasks/>
+          <AllTasks className="min-h-screen"/>
         </div>
        </div>
     )

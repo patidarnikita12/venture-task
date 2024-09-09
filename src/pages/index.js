@@ -19,8 +19,9 @@ const geistMono = localFont({
 
 export default function Home() {
   return (
-    <div className="bg-[#dbeafe] h-[100%]">
-      <Home/>
+    <div className="bg-[#dbeafe] h-[100%] gap-4">
+     <Link href='/Home' className="ml-4">Home</Link>
+     <Link href='/fulllibrary' className="ml-8">Full Library</Link>
     </div>
   );
 }

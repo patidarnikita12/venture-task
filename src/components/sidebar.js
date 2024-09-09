@@ -6,6 +6,8 @@ import { LuChevronRightCircle } from "react-icons/lu";
 import { GoPerson } from "react-icons/go";
 import { FiCheckCircle } from "react-icons/fi";
 import { FiDownload } from "react-icons/fi";
+import { SlDrawer } from "react-icons/sl";
+
 import { FaChevronDown } from "react-icons/fa";
 import { PiArrowLineLeftLight } from "react-icons/pi";
 function SideBar() {

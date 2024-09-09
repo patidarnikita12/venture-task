@@ -12,8 +12,8 @@ function TopNavSec() {
                     <h1 className="text-3xl ml-3 mt-2">DoQssence </h1>
                     <FaPlus className="text-2xl mt-3" />
                 </div>
-                <div className="flex flex-row  mt-3 tex-black w-[80%] border-y-2 border-gray">
-                    <div className="flex flex-row mt-3">
+                <div className="flex flex-row  mt-3 tex-black w-[80%] border-y-2 border-gray ">
+                    <div className="flex flex-row mt-3 ">
                       <ul className="flex flex-row gap-4">
                         <li><MdOutlineGridView className="text-2xl"/></li>
                         <li>Home</li>
@@ -23,11 +23,11 @@ function TopNavSec() {
                         <li><select><option>Document Management</option></select></li>
                         <li><select><option>Training</option></select></li>
                         <li><select><option>Reporting & Dashboard</option></select></li>
-                        <li><MdKeyboardDoubleArrowRight/></li>
+                        <li ><MdKeyboardDoubleArrowRight className="text-[#0e7490] text-lg"/></li>
                       </ul>
                     </div>
-                    <div>
-                    <div className="flex flex-row bg-[#0e7490] m-3 rounded rounded-lg gap-3 text-gray-100 text-xl ">
+                    <div className="">
+                    <div className="flex flex-row bg-[#0e7490] m-2 rounded  rounded-lg gap-3 text-gray-100 text-xl ">
                         <FaPlus className=" text-xl m-2" />
                         <p className="mt-1">Create record</p>
                         <FaChevronDown className="m-2" />
